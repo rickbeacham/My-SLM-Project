@@ -1,0 +1,17 @@
+# Core Machine Learning Framework
+torch>=2.0.0
+torchvision
+torchaudio
+
+# Data Processing & Tokenization
+datasets        # To load TinyStories from Hugging Face
+tiktoken        # OpenAI's fast BPE tokenizer (for GPT-2 encoding)
+numpy<2.0.0     # For memmap and array manipulations
+tqdm            # For those helpful training progress bars
+
+# Visualization & Logging
+matplotlib      # To plot your training/validation loss curves
+tensorboard     # Optional: if you want to track metrics visually
+
+# Utilities
+accelerate      # Helps with mixed precision on Apple Silicon

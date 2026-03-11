@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MacOS specific
+.DS_Store
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# DATA - Do not upload these!
+data/
+*.bin
+*.csv
+*.jsonl
+
+# MODELS - Do not upload heavy weight files
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Logs
+*.log
